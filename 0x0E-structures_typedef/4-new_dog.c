@@ -41,7 +41,7 @@ while (src[len] != '\0')
 	}
 
 	for (i = 0; i < len; i++)
-	{
+	t is {
 		dest[i] = src[i];
 	}
 	dest[i] = '\0';
@@ -82,9 +82,5 @@ dog->owner = malloc(sizeof(char) * (len2 + 1));
 		free(dog->name);
 		return (NULL);
 	}
-	_strcpy(dog->name, name);
-	_strcpy(dog->owner, owner);
-	dog->age = age;
-
 	return (dog);
 }
